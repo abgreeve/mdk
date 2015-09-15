@@ -52,6 +52,15 @@ mdk_set_config('langstringcache', 0);
 // Do not use YUI combo loading.
 mdk_set_config('yuicomboloading', 0);
 
+// Set the default home page to Site.
+mdk_set_config('defaulthomepage', 0);
+
+// Set the default course format to topic.
+mdk_set_config('format','topics','moodlecourse');
+
+// Set the grade navigation to tabs and a drop down menu.
+mdk_set_config('grade_navmethod','2');
+
 // Disable modintro for lazy devs.
 mdk_set_config('requiremodintro', 0, 'book');
 mdk_set_config('requiremodintro', 0, 'folder');
